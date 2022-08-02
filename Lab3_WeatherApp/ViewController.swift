@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     private func imageConfig(){
         let config = UIImage.SymbolConfiguration(paletteColors:[.systemRed,.systemBlue,.systemYellow])
         weatherConditionImage.preferredSymbolConfiguration=config
-        weatherConditionImage.image=UIImage(systemName: "sunrise")
+//        weatherConditionImage.image=UIImage(systemName: "sunrise")
     }
 
     @IBAction func onLocationButton(_ sender: UIButton) {
